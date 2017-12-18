@@ -1,0 +1,2 @@
+[2017-12-08T17:03:46.559] [INFO] cheese - [nodegetSource][casper获取资源接口][接口:::/getSource][传入参数 http://www.17sucai.com/preview/13357/2016-11-16/CK-NEW/index.html][starting...]
+[2017-12-08T17:03:46.561] [INFO] cheese - [nodegetSource][casper获取资源接口][接口:::/getSource][传入参数 http://www.17sucai.com/preview/13357/2016-11-16/CK-NEW/index.html][执行casper命令::: casperjs ../casper/getSource.js http://www.17sucai.com/preview/13357/2016-11-16/CK-NEW/index.html]

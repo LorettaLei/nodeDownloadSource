@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title>扒网页</title>
+	<link rel='stylesheet' href='/bootstrap/css/bootstrap.min.css' />
+	<link rel='stylesheet' href='/stylesheets/mobile_tool.css' />
+	<link rel='stylesheet' href='/stylesheets/mobile_time.css' />
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<style>
+		input[type=text]{
+			width: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h4 class="text-center title">扒网页</h4>
+			</div>
+			<div style="height: 100px;"></div>
+			<div class="text-center">
+				<form method="post" action="/getSource" name="form1">
+					<input type="text" name="url" id="url">&nbsp;<button type="submit">下载</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

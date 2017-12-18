@@ -1,0 +1,13 @@
+h4.title {
+	font-weight: bold;
+}
+.icon {
+	text-align: left !important;
+	color: #f00;
+}
+#btn {
+	width: 100%;
+}
+#appointmentTime_1 {
+	background: #fff;
+}

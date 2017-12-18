@@ -1,0 +1,32 @@
+{
+  "name": "crawlerimg",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "supervisor ./bin/www",
+    "pm2start": "pm2 start ./bin/www",
+    "pm2stop": "pm2 stop ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "async": "^2.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "crypto": "^1.0.1",
+    "file-stream-rotator": "^0.2.0",
+    "get-pixels": "^3.3.0",
+    "iconv-lite": "^0.4.19",
+    "log4js": "^2.3.3",
+    "request": "^2.81.0",
+    "superagent": "^3.8.0",
+    "sync-request": "^4.1.0"
+  }
+}
